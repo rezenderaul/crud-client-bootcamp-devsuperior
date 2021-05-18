@@ -1,3 +1,10 @@
-INSERT INTO tb_client (name, cpf, income, children, birthDate, created_At) VALUES ('José', '111111111', 3000.0, 2, '1984-11-05T13:15:30Z', NOW());
-INSERT INTO tb_client (name, cpf, income, children, birthDate, created_At) VALUES ('João', '222222222', 5000.0, 3, '1990-07-15T03:21:10Z', NOW());
-INSERT INTO tb_client (name, cpf, income, children, birthDate, created_At) VALUES ('Jair', '333333333', 7000.0, 0, '1987-01-30T00:18:45Z', NOW());
+INSERT INTO tb_client (name, cpf, income, children, birthDate, created_At) VALUES ('JOSE DUARTE MOREIRA', '393.886.598-99', 3000.0, 2, '1990-07-15', NOW());
+INSERT INTO tb_client (name, cpf, income, children, birthDate, created_At) VALUES ('CARLOS BARBOSA MIRANDA', '495.794.313-37', 5000.0, 3, '1999-05-18', NOW());
+INSERT INTO tb_client (name, cpf, income, children, birthDate, created_At) VALUES ('JOAO MORAES PEREIRA', '657.162.387-00', 7000.0, 0, '1989-01-11', NOW());
+INSERT INTO tb_client (name, cpf, income, children, birthDate, created_At) VALUES ('MARCOS MOREIRA PEREIRA', 'MARCOS MOREIRA PEREIRA', 1500.0, 0, '2000-11-29', NOW());
+INSERT INTO tb_client (name, cpf, income, children, birthDate, created_At) VALUES ('LUIZ SANTANA ANDRADE', '707.607.498-25', 6000.0, 4, '1997-02-08', NOW());
+INSERT INTO tb_client (name, cpf, income, children, birthDate, created_At) VALUES ('ANDRE MIRANDA SANTOS', '420.716.451-03',5000.0, 0, '2003-04-28', NOW());
+INSERT INTO tb_client (name, cpf, income, children, birthDate, created_At) VALUES ('DIEGO ANDRADE MOURA', '481.820.719-50', 6500.0, 3, '1992-07-01', NOW());
+INSERT INTO tb_client (name, cpf, income, children, birthDate, created_At) VALUES ('LETICIA ANDRADE MENDES', '258.527.469-16', 4000.0, 1, '1990-06-03', NOW());
+INSERT INTO tb_client (name, cpf, income, children, birthDate, created_At) VALUES ('LUIZ ROCHA RAMOS', '725.507.717-02', 3500.0, 2, '1989-02-28', NOW());
+INSERT INTO tb_client (name, cpf, income, children, birthDate, created_At) VALUES ('AMANDA GARCIA FERNANDES', '753.471.766-36', 2500.0, 0, '1993-12-25', NOW());
