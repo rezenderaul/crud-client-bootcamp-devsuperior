@@ -3,6 +3,7 @@ package com.raulrezende.crudclient.entities;
 import java.io.Serializable;
 import java.time.Instant;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -22,7 +23,8 @@ public class Client implements Serializable {
 	private Double income;
 	private Integer children;
 	
-	private Instant birthDate;
+	@Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
+	private Instant birthdate;
 	
 	public Client() {
 	}
@@ -33,7 +35,7 @@ public class Client implements Serializable {
 		this.cpf = cpf;
 		this.income = income;
 		this.children = children;
-		this.birthDate = birthDate;
+		this.birthdate = birthDate;
 	}
 
 	public Long getId() {
@@ -77,11 +79,11 @@ public class Client implements Serializable {
 	}
 
 	public Instant getBirthDate() {
-		return birthDate;
+		return birthdate;
 	}
 
 	public void setBirthDate(Instant birthDate) {
-		this.birthDate = birthDate;
+		this.birthdate = birthDate;
 	}
 
 	@Override
